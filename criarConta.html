@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MyHealth</title>
+  <link rel="stylesheet" href="styleIndex.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <img id= "logo"src="Imagens/logo.png" alt="MyHealth">
+  </nav>
+
+  <main>
+
+    <div class="container">
+      <form class="form">
+        
+        <div class="form-input">
+          <label class="label" for="txtNome">Nome Completo:</label>
+          <input class="input" id="txtNome" type="text" name="nome">
+        </div>
+
+        <div class="form-input">
+          <label class="label" for="radioGenero">Gênero: </label>
+          <input class="input" type="radio" id="rbMasculino" name="tipo" value="Masculino" >
+          <label>Masculino</label>
+  
+          <input class="input" type="radio" id="rbFeminino" name="tipo" value="Feminino" >
+          <label>Feminino</label>
+        </div>
+
+        <div class="form-input">
+          <label class="label" for="dataNascimento" >Data de nascimento: </label>
+          <input class="input" type="date" id="calDataNasc" name="dataNascimento">
+        </div>
+
+        <div class="form-input">
+          <label class="label" for="txtEmail"">Email: </label>
+          <input class="input" type="email" id="txtEmail" name="email">  
+        </div>          
+        
+        <div class="form-input">
+          <label class="label" for="txtPassword">Senha: </label>
+          <input class="input" type="password" id="txtPassword" name="password">
+        </div>
+
+        <div class="form-input">
+          <label class="label" for="txtPassword">Repetir Senha:</label>
+          <input class="input" type="password" id="txtPassword" name="password">
+        </div>
+
+        <div class="form-submit">
+          <button class="button button-green" type="submit">Cadastrar</button>
+        </div>
+
+    </form>
+    </div>
+
+  </main>
+</body>
+</html>

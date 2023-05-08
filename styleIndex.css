@@ -22,6 +22,13 @@ nav{
   text-align: center;
   padding: 5px 18px;  
   color: #FFFFFF;
+  text-decoration: none;
+}
+.button-green{
+  background: #37BD6D;
+  margin-top: 20px; /* Adiciona uma margem superior para separar o botão do formulário */
+  align-self: center; /* Centraliza horizontalmente o botão */
+  display: block; /* Define o botão como um elemento de bloco */
 }
 .button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -47,4 +54,54 @@ nav{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.label{
+  font-family: 'Averia Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 23px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-right: 10px; /* margem direita para separar a label do input */
+  flex-shrink: 0; /* impede que a label encolha e mantenha seu tamanho original */
+  text-align: right; /* alinha o texto da label à direita */
+  width: 150px; /* define a largura da label */
+}
+.input{
+    font-family: 'Averia Libre';
+    font-style: normal;
+    color: #3F92C5    ;
+    background: #FFFFFF;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 2px;      
+    margin-top: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+.input[type="radio"]{
+  width: 20px;
+  box-shadow: none;
+}
+.input[type="date"]{
+  width: 120px;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  min-width: 693px;
+}
+.form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 2px;
+}
+.align-center{
+  align-self: center;
+}
+.linkRecuperar{
+  margin-top: 37px;
+
 }
