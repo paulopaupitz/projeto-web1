@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MyHealth</title>
+  <link rel="stylesheet" href="styleIndex.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <img id= "logo"src="Imagens/logo.png" alt="MyHealth">
+    <div class="buttons-nav">
+      <a class="button" hred="/home.html">Minhas vacinas</a>
+      <a class="button" href="/index.html">Logout</a>
+    </div>
+    
+  </nav>
+
+  <main>
+
+    <div class="container">
+      <form class="form"> 
+
+        <div class="form-input">
+          <label class="label" for="dataVacinacao">Data de vacinação: </label>
+          <input class="input" type="date" id="calDataVax" name="dataVacinacao">
+        </div>
+
+        <div class="form-input">
+          <label class="label" for="nomeVacina">Vacina: </label>
+          <input class="input" id="txtVacina" type="text" name="nomeVacina">
+        </div>
+        
+        <div class="form-input">
+          <label class="label" for="radioGenero">Dose: </label>
+          <input class="input" type="radio" id="rb1Dose" name="tipo" value="1Dose" >
+          <label>1a.dose</label>
+  
+          <input class="input" type="radio" id="rb2Dose" name="tipo" value="2Dose" >
+          <label>2a.dose</label>
+
+          <input class="input" type="radio" id="rb3Dose" name="tipo" value="3Dose" >
+          <label>3a.dose</label>
+
+          <input class="input" type="radio" id="rbReforco" name="tipo" value="Reforco" >
+          <label>Reforço</label>
+
+          <input class="input" type="radio" id="rbUnica" name="tipo" value="Unica" >
+          <label>Dose única</label>
+        </div>
+
+        <div class="form-input">
+          <label class="label" for="txtComprovante">Comprovante da vacina: </label>
+          <input type="file" id="img" name="img" accept="image/*">
+        </div>
+
+        <div class="form-input">
+          <label class="label" for="dataProxVax" >Proxima vacinação: </label>
+          <input class="input" type="date" id="calProxVax" name="dataProxVax">
+        </div>
+
+        <div class="align-center">
+          <button class="button button-green" type="submit">Cadastrar</button>
+        </div>
+
+    </form>
+    </div>
+
+  </main>
+</body>
+</html>
