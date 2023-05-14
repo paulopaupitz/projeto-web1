@@ -1,9 +1,9 @@
 body{
-  background-color: rgb(114, 189, 215);
+  background: #ADD5D0;
   margin: 0px;
 }
 nav{
-  background-color: #8FE1D9;
+  background: #C1E7E3;
   justify-content: space-between;
   display: flex;
   padding: 4px 30px;
@@ -29,6 +29,14 @@ nav{
   margin-top: 20px; /* Adiciona uma margem superior para separar o botão do formulário */
   align-self: center; /* Centraliza horizontalmente o botão */
   display: block; /* Define o botão como um elemento de bloco */
+}
+.button-red{
+  background-color: #FD7979;;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 .button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
