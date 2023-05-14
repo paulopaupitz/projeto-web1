@@ -157,6 +157,9 @@ input.nosubmit {
   align-items: center;
   margin: 10px;
 }
+.cardvacina a {
+  text-decoration: none;
+}
 .cardvacina h5 {
   font-family: 'Averia Libre';
   font-style: normal;
