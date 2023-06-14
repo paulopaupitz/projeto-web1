@@ -230,6 +230,7 @@ input.nosubmit {
   margin: 15px;
 }
 .popup {
+  font-family: "Averia Libre";
   position: fixed;
   top: 50%;
   left: 50%;
@@ -258,12 +259,12 @@ input.nosubmit {
   border-radius: 5px;
   cursor: pointer;
 }
-.popup button#btnRemover {
-  background-color: #ff0000;
+.popup button#btnSim {
+  background-color: #ff8383;
   color: #ffffff;
 }
 
-.popup button#btnFechar {
-  background-color: #0000ff;
+.popup button#btnCancelar {
+  background-color: #3f92c5;
   color: #ffffff;
 }

@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>MyHealth</title>
+    <!-- Definindo o estilo da página e fontes -->
+    <link rel="stylesheet" href="styleIndex.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap"
+      rel="stylesheet" />
+  </head>
 
-<head>
-  <title>MyHealth</title>
-  <!-- Definindo o estilo da página e fontes -->
-  <link rel="stylesheet" href="styleIndex.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap" rel="stylesheet">
-</head>
-
-<body>
-   <nav>     <!-- Barra de navegação -->
-    <img id= "logo"src="Imagens/logo.png" alt="MyHealth">
-    <div class="buttons-nav">
-      <a class="button" hred="/home.html">Minhas vacinas</a>
-      <a class="button" href="/index.html">Logout</a>
-    </div>
-  </nav>
-  
-  <main>
-    <div class="inputsearch">
-      <input class="nosubmit" type="search" placeholder="PESQUISAR VACINA...">
-    </div>
-
-    <div class="container-vacinas">
-      <div class="cardvacina button">
-        <a href="editarvacina.html">
-          <h5>BCG</h5>
-          <p>Dose única</p>
-          <span class="vaxdata">11/06/2022</span>
-          <img id= "imgcomprovantevacina" src="/Imagens/image-comprovante.png" alt="Comprovante de Vacina">
-          <span class="proxvax">Não há próxima dose</span>
-        </a>
+  <body>
+    <nav>
+      <!-- Barra de navegação -->
+      <img id="logo" src="Imagens/logo.png" alt="MyHealth" />
+      <div class="buttons-nav">
+        <a class="button" hred="/home.html">Minhas vacinas</a>
+        <a class="button" href="/src/index.html">Logout</a>
       </div>
-      
-      <div class="cardvacina button">
-        <a href="editarvacina.html">
-          <h5>Hepatite B</h5>
-          <p>1a.Dose</p>
-          <span class="vaxdata">11/08/2022</span>
-          <img id= "imgcomprovantevacina" src="/Imagens/image-comprovante.png" alt="Comprovante de Vacina">
-          <span class="proxvax">Próxima dose em: 11/10/2023</span>
-        </a>
+    </nav>
+
+    <main>
+      <div class="inputsearch">
+        <input
+          class="nosubmit"
+          type="search"
+          placeholder="PESQUISAR VACINA..." />
       </div>
+
+      <div class="container-vacinas">
+        <div class="cardvacina button">
+          <a href="editarvacina.html">
+            <h5>BCG</h5>
+            <p>Dose única</p>
+            <span class="vaxdata">11/06/2022</span>
+            <img
+              id="imgcomprovantevacina"
+              src="Imagens/image-comprovante.png"
+              alt="Comprovante de Vacina" />
+            <span class="proxvax">Não há próxima dose</span>
+          </a>
+        </div>
+
+        <div class="cardvacina button">
+          <a href="editarvacina.html">
+            <h5>Hepatite B</h5>
+            <p>1a.Dose</p>
+            <span class="vaxdata">11/08/2022</span>
+            <img
+              id="imgcomprovantevacina"
+              src="Imagens/image-comprovante.png"
+              alt="Comprovante de Vacina" />
+            <span class="proxvax">Próxima dose em: 11/10/2023</span>
+          </a>
+        </div>
 
         <div class="cardvacina button">
           <a href="editarvacina.html">
             <h5>Rotavirus</h5>
             <p>1a.Dose</p>
             <span class="vaxdata">11/10/2022</span>
-            <img id= "imgcomprovantevacina" src="/Imagens/image-comprovante.png" alt="Comprovante de Vacina">
+            <img
+              id="imgcomprovantevacina"
+              src="Imagens/image-comprovante.png"
+              alt="Comprovante de Vacina" />
             <span class="proxvax">Próxima dose em: 11/10/2023</span>
           </a>
         </div>
@@ -60,17 +74,18 @@
             <h5>Febre Amarela</h5>
             <p>1a.Dose</p>
             <span class="vaxdata">11/12/2022</span>
-            <img id= "imgcomprovantevacina" src="/Imagens/image-comprovante.png" alt="Comprovante de Vacina">
+            <img
+              id="imgcomprovantevacina"
+              src="Imagens/image-comprovante.png"
+              alt="Comprovante de Vacina" />
             <span class="proxvax">Proxima dose em: 11/10/2023</span>
           </a>
         </div>
-    </div>
+      </div>
 
-    <div class="button-novavax">
-      <a class="button button-green" href="/newVax.html">Nova vacina</a>  
-    </div>
-
-  </main>
-  
-</body>
+      <div class="button-novavax">
+        <a class="button button-green" href="/src/newVax.html">Nova vacina</a>
+      </div>
+    </main>
+  </body>
 </html>
