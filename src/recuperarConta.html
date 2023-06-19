@@ -3,6 +3,7 @@
 
 <head>
   <title>MyHealth</title>
+  <link type="image/png" sizes="32x32" rel="icon" href="../src/Imagens/iconVirus.ico.png">
   <link rel="stylesheet" href="styleIndex.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,12 +24,14 @@
           <label class="label" for="txtEmail">Email: </label>
           <input class="input" type="email" id="txtEmail" name="email">  
         </div>     
-
+        
         <div class="align-center">
-          <button class="button button-green" type="submit">Redefinir senha</button>
+          <span id="textMessage"></span>
+          <button id="btnRecuperar" class="button button-green">Redefinir senha</button>
         </div>
     </form>
     </div>
+    <script type ="module" src="recuperarSenha.js"></script>
   </main>
 </body>
 </html>

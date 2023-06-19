@@ -65,7 +65,8 @@ h1 {
   justify-content: center;
 }
 .image-background {
-  background: url(Imagens/background-vacina.png), #829896;
+  background: url(Imagens/background-vacina.png); 
+  background-color:#829896;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

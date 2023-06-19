@@ -3,6 +3,7 @@
 
 <head>
   <title>MyHealth</title>
+  <link type="image/png" sizes="32x32" rel="icon" href="../src/Imagens/iconVirus.ico.png">
   <link rel="stylesheet" href="styleIndex.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,19 +49,21 @@
           <label class="label" for="txtPassword">Senha: </label>
           <input class="input" type="password" id="txtPassword" name="password">
         </div>
-
-        <div class="form-input">
+        
+        <!-- <div class="form-input">
           <label class="label" for="txtPassword">Repetir Senha:</label>
           <input class="input" type="password" id="txtPassword" name="password">
-        </div>
-
-            <!--type="submit" na segunda parte do projeto -->
+        </div> -->
+        
+        <!--type="submit" na segunda parte do projeto -->
         <div class="align-center">
-          <a href="home.html" class="button button-green">Cadastrar</a>
+          <span id="txtMessage"></span> 
+          <a  id="btnCadastrar" class="button button-green">Cadastrar usuário</a>
         </div>
         
-    </form>
+      </form>
     </div>
+    <script type ="module" src="newUser.js"></script>
 
   </main>
 </body>
