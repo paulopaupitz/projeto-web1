@@ -26,9 +26,9 @@ nav {
 }
 .button-green {
   background: #37bd6d;
-  margin-top: 20px; /* Adiciona uma margem superior para separar o botão do formulário */
-  align-self: center; /* Centraliza horizontalmente o botão */
-  display: block; /* Define o botão como um elemento de bloco */
+  margin-top: 20px; 
+  align-self: center; 
+  display: block; 
 }
 .button-red {
   position: absolute;
@@ -66,7 +66,6 @@ h1 {
 }
 .image-background {
   background: url(Imagens/background-vacina.png); 
-  background-color:#829896;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

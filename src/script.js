@@ -15,7 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Ocultar o popup
     popup.style.display = "none";
   }
-  function removerVacina() {}
+
+  function removerVacina() {
+    // Lógica para remover a vacina
+  }
 
   btnSim.addEventListener("click", function (event) {
     event.preventDefault();
@@ -24,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   btnCancelar.addEventListener("click", function (event) {
     event.preventDefault();
+    fecharPopup();
     removerVacina();
   });
 

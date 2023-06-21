@@ -23,11 +23,8 @@
     </nav>
 
     <main>
-      <div class="inputsearch">
-        <input
-          class="nosubmit"
-          type="search"
-          placeholder="PESQUISAR VACINA..." />
+      <div class="inputSearch">
+        <input id="barraPesquisa"class="nosubmit" type="search" placeholder="PESQUISAR VACINA..." />
       </div>
 
       <div class="container-vacinas">
@@ -87,6 +84,13 @@
       <div class="button-novavax">
         <a class="button button-green" href="/src/newVax.html">Nova vacina</a>
       </div>
+
+      <script>
+        const searchInput = document.getElementById("barraPesquisa");
+        searchInput.addEventListener("input", handleSearch);
+
+      
+      </script>
     </main>
   </body>
 </html>
